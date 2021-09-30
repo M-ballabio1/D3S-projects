@@ -2,9 +2,12 @@
 Projects carried out by modifying and using datasets on Kaggle or other public dataset platforms such as Google Dataset Search or Microsoft Azure.
 
 #### 1. Logistic Regression project:
-            Modified "cardio_train.csv" dataset on Kaggle and added some new features (x1, x2, x3 ...) to improve the predictivity of the label (y), i.e. the presence or not of cardiovascular disease:
+            Modified "cardio_train.csv" dataset on Kaggle and added some new features (x1, x2, x3 ...) to improve the predictivity of the label (y),
+            i.e. the presence or not of cardiovascular disease:
             
             - MEAN ARTERIAL PRESSURE
             - HEART RATE
             - SYSTOLIC VOLUME
             - BODY MASS INDEX
+            
+            Using the following features brings the test accuracy from 0.70 to 0.736.
