@@ -11,3 +11,5 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             - BODY MASS INDEX
             
             Using the following features brings the test accuracy from 0.70 to 0.736.
+
+#### 2. Decision Tree project for Time Series
