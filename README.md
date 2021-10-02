@@ -12,4 +12,12 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             
             Using the following features brings the test accuracy from 0.70 to 0.736.
 
-#### 2. Decision Tree project for Time Series
+#### 2. Decision Tree Regression project for Time Series
+            Forecasting analysis AMAZON stock prize using "AMZN_data.csv" dataset on Kaggle.
+            
+            The analysis uses DecisionTreeRegression model for predict the AMZN stocks price for the next 25 days.
+            In this first experience with Time Series data, I didn't use cross-validation, which would have
+            allowed me to get an idea of the accuracy level of the higher analysis.
+            
+            In any case, I decided to carry out a manual cross-validation that allowed me to become more 
+            familiar with the theoretical concept of Cross-Validation.
