@@ -22,4 +22,4 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             In any case, I decided to carry out a manual cross-validation that allowed me to become more 
             familiar with the theoretical concept of Cross-Validation.
             
-            The result with cross_validation=5 is R2_SCORE = 0.82
+            The result with cross_validation=5 is R2_SCORE = 0.8223
