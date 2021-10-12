@@ -23,3 +23,10 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             familiar with the theoretical concept of Cross-Validation.
             
             The result with cross_validation=5 is R2_SCORE = 0.8223
+            
+#### 3. Data Science project for Optimization Portfolio
+
+![ObjectDetection - Notes 1](![Figure_1](https://user-images.githubusercontent.com/78934727/136964438-c8340b37-f573-4475-9f1e-446c6a5d1d24.png)
+![ObjectDetection - Notes 1](![figure2](https://user-images.githubusercontent.com/78934727/136964337-1676ac1e-52f8-4cec-87e1-f9ca309d038e.PNG)
+
+
