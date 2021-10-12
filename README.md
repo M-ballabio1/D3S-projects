@@ -31,6 +31,11 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             The analysis evaluates the trend in the value of the shares of 10
             companies from 2015 to today. 
 (![Figure_1](https://user-images.githubusercontent.com/78934727/136964438-c8340b37-f573-4475-9f1e-446c6a5d1d24.png)
-            ok VA NEM
+            The analysis starts with the inizialization for all 10 equity shares of uniform 
+            weights in my portfolio (10%). After that, I evalute Expected annual return and Annual volatility. 
+            
+            At this point, I perform a portfolio optimization, starting from the 10 chosen actions,
+            by defining the Efficient Frontier. We have obtained that the performance of the 
+            portfolio with OPTIMIZED distribution, maximizes the return and minimizes the financial risk.
 (![figure2](https://user-images.githubusercontent.com/78934727/136964337-1676ac1e-52f8-4cec-87e1-f9ca309d038e.PNG)
 
