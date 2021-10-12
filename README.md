@@ -30,7 +30,7 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             
             The analysis evaluates the trend in the value of the shares of 10
             companies from 2015 to today. 
-![Figure_1](https://user-images.githubusercontent.com/78934727/136964438-c8340b37-f573-4475-9f1e-446c6a5d1d24.png)
+![Immagine1](https://user-images.githubusercontent.com/78934727/136968720-79082c29-15cc-4c7b-90a7-237289e102b0.png)
             
             The analysis starts with the inizialization for all 10 equity shares of uniform 
             weights in my portfolio (10%). After that, I evalute Expected annual return and Annual volatility. 
@@ -40,4 +40,6 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             portfolio with OPTIMIZED distribution, maximizes the return and minimizes the financial risk.
             
 ![figure2](https://user-images.githubusercontent.com/78934727/136964337-1676ac1e-52f8-4cec-87e1-f9ca309d038e.PNG)
+
+
 
