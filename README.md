@@ -10,7 +10,8 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             - SYSTOLIC VOLUME
             - BODY MASS INDEX
             
-            Using the following features brings the test accuracy from 0.70 to 0.736.
+            Using the following features brings the test accuracy from 0.70 to 0.73 with Cross-Validation=5.
+            
 
 #### 2. Decision Tree Regression project for Time Series
             Forecasting analysis AMAZON stock prize using "AMZN_data.csv" dataset on Kaggle.
