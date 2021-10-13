@@ -64,7 +64,7 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             The result is positive for all age groups, in fact, all DeltaCost and DeltaLY couples are greater
             than the red line that delimits the cost-life years convenience.
             
-![LY_COSTI1](https://user-images.githubusercontent.com/78934727/137210548-6a7dbaa8-a6b8-4a49-80ff-fd95487ca4e6.png)
+![LY_COSTI2](https://user-images.githubusercontent.com/78934727/137211208-241e6eb1-d310-4be6-b0bb-f9a50038937c.png)
 ![DESCRIZ](https://user-images.githubusercontent.com/78934727/137210698-986a96f9-97cb-4ff0-872c-dc09f8fcf99d.PNG)
 
 
