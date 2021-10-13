@@ -42,5 +42,31 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             
 ![figure2](https://user-images.githubusercontent.com/78934727/136964337-1676ac1e-52f8-4cec-87e1-f9ca309d038e.PNG)
 
+#### 4![DESCRIZ](https://user-images.githubusercontent.com/78934727/137210678-c71868be-1e60-4c07-afe5-349c2306a8dc.PNG)
+. Data Science project - Markov Model in Healthcare case
+            The purpose of the Markov Model is to model the situation of an individual, in which time
+            plays a strategic role. Indeed, the timeline of events is important and each
+            event can happen more than once
+            
+            The analysis consists of the following situation: a health company must evaluate the introduction of a
+            medical device for the improvement of osteoarthritis. Some information is known:
+            - device cost
+            - probability of osteoporosis fractures by age group
+            - mortality by age group
+            - cost of treatment following the fracture.
+            - cost of deaths.
+
+            What we want to evaluate is the ICER. The incremental cost-effectiveness ratio (ICER)
+            is a statistic used in cost-effectiveness analysis to summarise the cost-effectiveness of a health care
+            intervention. It is defined by the difference in cost between  two possible interventions, divided by 
+            the difference in their effect. It represents the average incremental cost associated with 1 additional unit
+            of the measure of effect.
+            
+            The result is positive for all age groups, in fact, all DeltaCost and DeltaLY couples are greater
+            than the red line that delimits the cost-life years convenience.
+            
+            ![LY_COSTI1](https://user-images.githubusercontent.com/78934727/137210548-6a7dbaa8-a6b8-4a49-80ff-fd95487ca4e6.png)
+            ![DESCRIZ](https://user-images.githubusercontent.com/78934727/137210698-986a96f9-97cb-4ff0-872c-dc09f8fcf99d.PNG)
+
 
 
