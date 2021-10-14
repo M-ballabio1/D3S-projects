@@ -39,9 +39,10 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             At this point, I perform a portfolio optimization, starting from the 10 chosen actions,
             by defining the Efficient Frontier. We have obtained that the performance of the 
             portfolio with OPTIMIZED distribution, maximizes the return and minimizes the financial risk.
-![portfolio_uniforme](https://user-images.githubusercontent.com/78934727/137280404-93f99388-f672-4ebd-9d08-f5c852ff89bb.png)
-![portfolio_ottimizzato](https://user-images.githubusercontent.com/78934727/137280445-d9f2c26d-c696-4e88-a20f-2a1557f82a5f.png)
-![figure2](https://user-images.githubusercontent.com/78934727/137268423-a93d04ff-a072-48a6-9f88-190ed1796cba.PNG)
+![portfolio_uniforme](https://user-images.githubusercontent.com/78934727/137339497-de1b8b80-6533-4513-a7ad-515abbd7642c.png)
+![portfolio_ottimizzato](https://user-images.githubusercontent.com/78934727/137339520-553a5917-2390-4942-bff6-aa6ac84a9df7.png)
+![comparison_portfolio](https://user-images.githubusercontent.com/78934727/137339586-98b14e78-ae45-4043-adfe-76026a5b61f0.PNG)
+
 
 #### 4. Data Science project - Markov Model in Healthcare case
             The purpose of the Markov Model is to model the situation of an individual, in which time
