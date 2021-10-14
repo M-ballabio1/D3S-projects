@@ -113,3 +113,15 @@ allocation, leftover = da.lp_portfolio()
 
 print("Discrete allocation:", allocation)
 print("Funds remaining: ${:.2f}".format(leftover))
+
+#### plot
+
+LABEL = ['FB', 'INTC', 'PEP','NVDA','GILD','AMZN','AAPL', 'SBUX','GOOG','MSFT']
+WEIGHT1 = np.array([0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1])
+plt.pie(WEIGHT1, labels=LABEL)
+plt.show()
+
+LABEL1 = ['NVDA','AMZN']
+WEIGHT2 = np.array([0.546, 0.454])
+plt.pie(WEIGHT2, labels=LABEL1)
+plt.show()
