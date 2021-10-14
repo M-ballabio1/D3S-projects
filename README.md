@@ -49,7 +49,7 @@ Expected Annual Return: 59,4%
 Financial Risk: 33.3%
             
 ![portfolio_uniforme](https://user-images.githubusercontent.com/78934727/137339497-de1b8b80-6533-4513-a7ad-515abbd7642c.png)
-![portfolio_ottimizzato](https://user-images.githubusercontent.com/78934727/137339520-553a5917-2390-4942-bff6-aa6ac84a9df7.png)
+![portfolio_ottimizzato](https://user-images.githubusercontent.com/78934727/137340601-4f4512a6-6c47-4d1b-8a44-a1913e94891f.png)
 ![comparison_portfolio](https://user-images.githubusercontent.com/78934727/137339586-98b14e78-ae45-4043-adfe-76026a5b61f0.PNG)
 
 
