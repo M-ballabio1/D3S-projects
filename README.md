@@ -35,10 +35,11 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             
             The analysis starts with the inizialization for all 10 equity shares of uniform 
             weights in my portfolio (10%). After that, I evalute Expected annual return and Annual volatility. 
-![portfolio_uniforme](https://user-images.githubusercontent.com/78934727/137280404-93f99388-f672-4ebd-9d08-f5c852ff89bb.png)
+ 
             At this point, I perform a portfolio optimization, starting from the 10 chosen actions,
             by defining the Efficient Frontier. We have obtained that the performance of the 
             portfolio with OPTIMIZED distribution, maximizes the return and minimizes the financial risk.
+![portfolio_uniforme](https://user-images.githubusercontent.com/78934727/137280404-93f99388-f672-4ebd-9d08-f5c852ff89bb.png)
 ![portfolio_ottimizzato](https://user-images.githubusercontent.com/78934727/137280445-d9f2c26d-c696-4e88-a20f-2a1557f82a5f.png)
 ![figure2](https://user-images.githubusercontent.com/78934727/137268423-a93d04ff-a072-48a6-9f88-190ed1796cba.PNG)
 
