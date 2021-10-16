@@ -78,5 +78,23 @@ Financial Risk: 33.3%
 ![LY_COSTI2](https://user-images.githubusercontent.com/78934727/137211357-5b3c4f24-320a-4fd4-b533-064617214702.png)
 ![DESCRIZ](https://user-images.githubusercontent.com/78934727/137210698-986a96f9-97cb-4ff0-872c-dc09f8fcf99d.PNG)
 
+#### 4. Deep Learning project (Computer Vision) - CNN for classification mushrooms
+           This is my first experiment with a neural network and certainly there will be a lot to work on,
+           but this is my first job.
+           I have created a CNN network for the classification of mushrooms in 5 possible categories. Subsequently,
+           with a graphical interface called Gradio I was able to verify the ability to generalize on images
+           different from those of the training dataset. The result is the following:
+           
+##### Accuracy: 0.8335 - val_accuracy: 0.7791
+
+![ACCURACY](https://user-images.githubusercontent.com/78934727/137590545-a9177cf4-a872-4ba7-9fc1-9370d90f8daf.PNG)
+
+           The result reveals that the model has a slight overfitting problem, as the accuracy on the 
+           training set > accuracy on the validation set. However, this being the first test I can be quite satisfied
+           to have obtained a val_accuracy of 77.91%.
+![giallino](https://user-images.githubusercontent.com/78934727/137590615-14f633cb-4ba2-42c9-9a34-ca53665d867a.png)
+![porcino](https://user-images.githubusercontent.com/78934727/137590619-6fad34bc-68e8-4975-8cef-cf6449f79ae1.png)
+           
+
 
 
