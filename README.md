@@ -92,7 +92,7 @@ Financial Risk: 33.3%
            The result reveals that the model has a slight overfitting problem, as the accuracy on the 
            training set > accuracy on the validation set. However, this being the first test I can be quite satisfied
            to have obtained a val_accuracy of 77.91%.
-![screenshot (1)](https://user-images.githubusercontent.com/78934727/137590751-1b56a99b-3074-4388-a421-f6fcf7f78117.png)
+![giallino](https://user-images.githubusercontent.com/78934727/137590800-1d5c7a9f-b977-4a21-9edd-efb171d4fa0b.png)
 ![porcino](https://user-images.githubusercontent.com/78934727/137590694-fc57ef1f-2b75-431a-9a49-befb52165b61.png)
 
            
