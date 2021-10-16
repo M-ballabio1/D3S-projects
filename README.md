@@ -58,8 +58,8 @@ Financial Risk: 33.3%
             plays a strategic role. Indeed, the timeline of events is important and each
             event can happen more than once
             
-            The analysis consists of the following situation: a health company must evaluate the introduction of a
-            medical device for the improvement of osteoarthritis. Some information is known:
+            The analysis consists of the following situation: a health company must evaluate the introduction 
+            of a medical device for the improvement of osteoarthritis. Some information is known:
             - device cost
             - probability of osteoporosis fractures by age group
             - mortality by age group
@@ -67,13 +67,13 @@ Financial Risk: 33.3%
             - cost of deaths.
 
             What we want to evaluate is the ICER. The incremental cost-effectiveness ratio (ICER)
-            is a statistic used in cost-effectiveness analysis to summarise the cost-effectiveness of a health care
-            intervention. It is defined by the difference in cost between  two possible interventions, divided by 
-            the difference in their effect. It represents the average incremental cost associated with 1 additional unit
-            of the measure of effect.
+            is a statistic used in cost-effectiveness analysis to summarise the cost-effectiveness of 
+            a health care intervention. It is defined by the difference in cost between  two possible
+            interventions, divided by the difference in their effect. It represents the average incremental 
+            cost associated with 1 additional unit of the measure of effect.
             
-            The result is positive for all age groups, in fact, all DeltaCost and DeltaLY couples are greater
-            than the red line that delimits the cost-life years convenience.
+            The result is positive for all age groups, in fact, all DeltaCost and DeltaLY couples are 
+            greater than the red line that delimits the cost-life years convenience.
             
 ![LY_COSTI2](https://user-images.githubusercontent.com/78934727/137211357-5b3c4f24-320a-4fd4-b533-064617214702.png)
 ![DESCRIZ](https://user-images.githubusercontent.com/78934727/137210698-986a96f9-97cb-4ff0-872c-dc09f8fcf99d.PNG)
@@ -81,17 +81,17 @@ Financial Risk: 33.3%
 #### 4. Deep Learning project (Computer Vision) - CNN for classification mushrooms
            This is my first experiment with a neural network and certainly there will be a lot to work on,
            but this is my first job.
-           I have created a CNN network for the classification of mushrooms in 5 possible categories. Subsequently,
-           with a graphical interface called Gradio I was able to verify the ability to generalize on images
-           different from those of the training dataset. The result is the following:
+           I have created a CNN network for the classification of mushrooms in 5 possible categories. 
+           Subsequently, with a graphical interface called Gradio I was able to verify the ability to 
+           generalize on images different from those of the training dataset. The result is the following:
            
 ##### Accuracy: 0.8335 - val_accuracy: 0.7791
 
 ![ACCURACY](https://user-images.githubusercontent.com/78934727/137590545-a9177cf4-a872-4ba7-9fc1-9370d90f8daf.PNG)
 
            The result reveals that the model has a slight overfitting problem, as the accuracy on the 
-           training set > accuracy on the validation set. However, this being the first test I can be quite satisfied
-           to have obtained a val_accuracy of 77.91%.
+           training set > accuracy on the validation set. However, this being the first test I can be quite 
+           satisfied to have obtained a val_accuracy of 77.91%.
 ![giallino](https://user-images.githubusercontent.com/78934727/137590800-1d5c7a9f-b977-4a21-9edd-efb171d4fa0b.png)
 ![porcino](https://user-images.githubusercontent.com/78934727/137590694-fc57ef1f-2b75-431a-9a49-befb52165b61.png)
 
