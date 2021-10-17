@@ -1,7 +1,7 @@
 # DataScience_MachineLearning_DeepLearning-projects
 Projects carried out by modifying and using datasets on Kaggle or other public dataset platforms such as Google Dataset Search or Microsoft Azure.
 
-#### 1. Machine Learning project - Logistic Regression project:
+#### 1. Machine Learning project - Logistic Regression:
             Modified "cardio_train.csv" dataset on Kaggle and added some new features (x1, x2, x3 ...) to 
             improve the predictivity of the label (y),i.e. the presence or not of cardiovascular disease:
             
@@ -13,7 +13,7 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             Using the following features brings the test accuracy from 0.70 to 0.73 with Cross-Validation=5.
             
 
-#### 2. Machine Learning project - Decision Tree Regression project for Time Series
+#### 2. Machine Learning project - Decision Tree Regression for Time Series:
             Forecasting analysis AMAZON stock prize using "AMZN_data.csv" dataset on Kaggle.
             
             The analysis uses DecisionTreeRegression model for predict the stocks price for the next 25 days.
@@ -25,7 +25,7 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             
             The result with cross_validation=5 is R2_SCORE = 0.8223
             
-#### 3. Data Science project for Optimization Portfolio
+#### 3. Data Science project for Optimization Portfolio:
             Optimization portfolio based on 10 equity shares. In this project, the dataset was 
             taken from yahoo finance.
             
@@ -53,7 +53,7 @@ Financial Risk: 33.3%
 ![comparison_portfolio](https://user-images.githubusercontent.com/78934727/137339586-98b14e78-ae45-4043-adfe-76026a5b61f0.PNG)
 
 
-#### 4. Data Science project - Markov Model in Healthcare case
+#### 4. Data Science project - Markov Model in Healthcare case:
             The purpose of the Markov Model is to model the situation of an individual, in which time
             plays a strategic role. Indeed, the timeline of events is important and each
             event can happen more than once
@@ -78,7 +78,7 @@ Financial Risk: 33.3%
 ![LY_COSTI2](https://user-images.githubusercontent.com/78934727/137211357-5b3c4f24-320a-4fd4-b533-064617214702.png)
 ![DESCRIZ](https://user-images.githubusercontent.com/78934727/137210698-986a96f9-97cb-4ff0-872c-dc09f8fcf99d.PNG)
 
-#### 4. Deep Learning project (Computer Vision) - CNN for classification mushrooms
+#### 5. Deep Learning project (Computer Vision) - CNN for classification mushrooms:
            This is my first experiment with a neural network and certainly there will be a lot to work on,
            but this is my first job.
            I have created a CNN network for the classification of mushrooms in 5 possible categories. 
@@ -94,6 +94,8 @@ Financial Risk: 33.3%
            satisfied to have obtained a val_accuracy of 77.91%.
 ![giallino](https://user-images.githubusercontent.com/78934727/137590800-1d5c7a9f-b977-4a21-9edd-efb171d4fa0b.png)
 ![porcino](https://user-images.githubusercontent.com/78934727/137590694-fc57ef1f-2b75-431a-9a49-befb52165b61.png)
+
+#### 6. Machine Learning project (Healthcare) - XGB classification:
 
            
 
