@@ -10,8 +10,12 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split, StratifiedKFold
 from matplotlib import gridspec
 from sklearn.feature_selection import mutual_info_classif
+from sklearn.metrics import accuracy_score
+import pickle
+from matplotlib import pyplot
 import mplcyberpunk
 plt.style.use('cyberpunk')
+
 
 
 #####################################################
@@ -271,7 +275,33 @@ print("Logistic Regression Accuracy:", metrics.accuracy_score(y_test, y_pred))
 # nella forma di un insieme di predittivi deboli, tipicamente alberi di decisione. Costruisce un modello in maniera
 # simile ai metodi di boosting, e li generalizza permettendo l'ottimizzazione di una funzione di perdita differenziabile arbitraria.
 
-xgb_model = xgb.XGBClassifier(objective="binary:logistic", n_estimators=20, random_state=42, eval_metric=["auc", "error", "error@0.6"], use_label_encoder=False)
-xgb_model.fit(X_train, y_train, eval_set=[(X_test, y_test)])
+xgb_model = xgb.XGBClassifier(objective="binary:logistic", n_estimators=2000, eta=0.05, subsample=0.5, random_state=42, eval_metric=["error","logloss"], use_label_encoder=False)  #regularization parameter optimized
+eval_set = [(X_train, y_train), (X_test, y_test)]
+xgb_model.fit(X_train, y_train, early_stopping_rounds=15, eval_metric=["auc", "logloss"], verbose=True, eval_set=eval_set)
 y_pred = xgb_model.predict(X_test)
 
+predictions = [round(value) for value in y_pred]
+# evaluate predictions
+accuracy = accuracy_score(y_test, predictions)
+print("Accuracy: %.2f%%" % (accuracy * 100.0))
+
+# retrieve performance metrics
+results = xgb_model.evals_result()
+epochs = len(results['validation_0']['auc'])
+x_axis = range(0, epochs)
+# plot log loss
+fig, ax = pyplot.subplots()
+ax.plot(x_axis, results['validation_0']['logloss'], label='Train')
+ax.plot(x_axis, results['validation_1']['logloss'], label='Test')
+ax.legend()
+pyplot.ylabel('Log Loss')
+pyplot.title('XGBoost Log Loss')
+pyplot.show()
+# plot classification error
+fig, ax = pyplot.subplots()
+ax.plot(x_axis, results['validation_0']['error'], label='Train')
+ax.plot(x_axis, results['validation_1']['error'], label='Test')
+ax.legend()
+pyplot.ylabel('Classification Error')
+pyplot.title('XGBoost Classification Error')
+pyplot.show()
