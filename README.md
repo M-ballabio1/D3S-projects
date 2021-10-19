@@ -101,14 +101,15 @@ Financial Risk: 33.3%
            features (x1, x2, x3 ...) to improve the predictivity of the label (y),i.e. the presence or not of 
            cardiovascular disease.
            The initial weights of the dataset characteristics were quite low.
-![peso features](https://user-images.githubusercontent.com/78934727/137930447-7696303c-1f43-457b-83f9-9d6611561249.png)
+![features non numeriche](https://user-images.githubusercontent.com/78934727/137938135-b72e380a-c7fe-46a3-86a4-59216e55a9c9.png)
+![peso features](https://user-images.githubusercontent.com/78934727/137938108-681b4e2c-e68a-4683-aacd-ef84dced9699.png)
            
            Specifically, I added two characteristics "troponin" and "lactate" by taking the statistical 
            distribution of how many people with a heart attack have out-of-range troponin and lactate values.
            In particular, by calculating the correlation matrix it is possible to note how these two new
            characteristics are particularly predictive of the phenomenon we are studying. Even in scientific
            literature, these two values are highly indicative of heart failure.
-![correlation matrix](https://user-images.githubusercontent.com/78934727/137929915-77d903a6-345e-4401-9602-fb32df08add9.png)
+![correlation matrix](https://user-images.githubusercontent.com/78934727/137938165-ca549fe7-4a3b-4389-912a-6f0f61905f43.png)
            
            The model used is Gradient boosting technique (regression and statistical classification algorithm 
            that produce a predictive model, typically decision trees).
