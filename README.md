@@ -101,8 +101,8 @@ Financial Risk: 33.3%
            features (x1, x2, x3 ...) to improve the predictivity of the label (y),i.e. the presence or not of 
            cardiovascular disease.
            The initial weights of the dataset characteristics were quite low.
-![features non numeriche](https://user-images.githubusercontent.com/78934727/137938135-b72e380a-c7fe-46a3-86a4-59216e55a9c9.png)
-![peso features](https://user-images.githubusercontent.com/78934727/137938108-681b4e2c-e68a-4683-aacd-ef84dced9699.png)
+![features non numeriche](https://user-images.githubusercontent.com/78934727/137938543-45fb71ab-99c3-46f8-a22f-0c4704af3c22.png)
+![peso features](https://user-images.githubusercontent.com/78934727/137938556-c7ecf5d5-4b76-4085-98a7-81a9323cbf70.png)
            
            Specifically, I added two characteristics "troponin" and "lactate" by taking the statistical 
            distribution of how many people with a heart attack have out-of-range troponin and lactate values.
