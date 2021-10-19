@@ -96,6 +96,26 @@ Financial Risk: 33.3%
 ![porcino](https://user-images.githubusercontent.com/78934727/137590694-fc57ef1f-2b75-431a-9a49-befb52165b61.png)
 
 #### 6. Machine Learning project (Healthcare) - XGB classification:
+           This example of project is based on a particular type of machine learning classification (XGB).
+           Modified "heart_failure_clinical_records_dataset" dataset on Kaggle and added and modify some new 
+           features (x1, x2, x3 ...) to improve the predictivity of the label (y),i.e. the presence or not of 
+           cardiovascular disease.
+           The initial weights of the dataset characteristics were quite low.
+![peso features](https://user-images.githubusercontent.com/78934727/137930447-7696303c-1f43-457b-83f9-9d6611561249.png)
+           
+           Specifically, I added two characteristics "troponin" and "lactate" by taking the statistical 
+           distribution of how many people with a heart attack have out-of-range troponin and lactate values.
+           In particular, by calculating the correlation matrix it is possible to note how these two new
+           characteristics are particularly predictive of the phenomenon we are studying. Even in scientific
+           literature, these two values are highly indicative of heart failure.
+![correlation matrix](https://user-images.githubusercontent.com/78934727/137929915-77d903a6-345e-4401-9602-fb32df08add9.png)
+           
+           The model used is Gradient boosting technique (regression and statistical classification algorithm 
+           that produce a predictive model, typically decision trees).
+           
+##### The result is a validation accuracy with cross_validation of: 86,4%, and in particular
+##### the model train_logloss:0.26906 and validation_logloss:0.31355
+![log_loss](https://user-images.githubusercontent.com/78934727/137937571-e86a981f-1300-4b19-95b0-656b13927bb2.png)
 
            
 
