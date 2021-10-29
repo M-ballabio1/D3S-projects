@@ -6,7 +6,7 @@ import tensorflow as tf
 from tensorflow import keras
 import matplotlib.pyplot as plt
 
-
+#management GPU
 gpus = tf.config.list_physical_devices('GPU')
 if gpus:
   # Restrict TensorFlow to only use the first GPU
@@ -18,6 +18,8 @@ if gpus:
     # Visible devices must be set before GPUs have been initialized
     print(e)
 
+#LOAD DATASET
+    
 data1 = tf.keras.datasets.mnist
 
 (x_train, y_train),(x_test,y_test) = data1.load_data()
@@ -25,6 +27,8 @@ print(x_test.shape)
 print(x_train.shape)
 
 x_train, x_test = x_train/255, x_test/255
+
+#MODEL
 
 model = tf.keras.models.Sequential([
   tf.keras.layers.Flatten(input_shape=(28,28)),
@@ -39,8 +43,15 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 
+#TRAINING
+
 history = model.fit(x_train,y_train, epochs=5,validation_split = 0.1)
+
+#TEST
+
 model.evaluate(x_test,y_test)
+
+#VISUALIZATION ACCURACY
 
 plt.plot(history.history['accuracy'], label='accuracy')
 plt.plot(history.history['val_accuracy'], label = 'val_accuracy')
