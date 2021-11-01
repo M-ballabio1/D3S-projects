@@ -2,26 +2,28 @@
 Projects carried out by modifying and using datasets on Kaggle or other public dataset platforms such as Google Dataset Search or Microsoft Azure.
 
 #### 1. Machine Learning project - Logistic Regression:
-            Modified "cardio_train.csv" dataset on Kaggle and added some new features (x1, x2, x3 ...) to 
-            improve the predictivity of the label (y),i.e. the presence or not of cardiovascular disease:
+            Modified "cardio_train.csv" dataset on Kaggle and added some new features (x1, x2, x3 ...) 
+            to improve the predictivity of the label (y),i.e. the presence or not of cardiovascular 
+            disease:
             
             - MEAN ARTERIAL PRESSURE
             - HEART RATE
             - SYSTOLIC VOLUME
             - BODY MASS INDEX
             
-            Using the following features brings the test accuracy from 0.70 to 0.73 with Cross-Validation=5.
+            Using the following features brings the test accuracy 
+            from 0.70 to 0.73 with Cross-Validation=5.
             
 
 #### 2. Machine Learning project - Decision Tree Regression for Time Series:
             Forecasting analysis AMAZON stock prize using "AMZN_data.csv" dataset on Kaggle.
             
-            The analysis uses DecisionTreeRegression model for predict the stocks price for the next 25 days.
-            In this first experience with Time Series data, I didn't use cross-validation, which would have
-            allowed me to get an idea of the accuracy level of the higher analysis.
+            The analysis uses DecisionTreeRegression model for predict the stocks price for the 
+            next 25 days. In this first experience with Time Series data, I didn't use cross-validation, 
+            which would have allowed me to get an idea of the accuracy level of the higher analysis.
             
-            In any case, I decided to carry out a manual cross-validation that allowed me to become more 
-            familiar with the theoretical concept of Cross-Validation.
+            In any case, I decided to carry out a manual cross-validation that allowed me to become 
+            more familiar with the theoretical concept of Cross-Validation.
             
             The result with cross_validation=5 is R2_SCORE = 0.8223
             
@@ -33,12 +35,13 @@ Projects carried out by modifying and using datasets on Kaggle or other public d
             companies from 2015 to today. 
 ![Immagine1](https://user-images.githubusercontent.com/78934727/136968720-79082c29-15cc-4c7b-90a7-237289e102b0.png)
             
-            The analysis starts with the inizialization for all 10 equity shares of uniform 
-            weights in my portfolio (10%). After that, I evalute Expected annual return and Annual volatility. 
+            The analysis starts with the inizialization for all 10 equity shares of uniform weights
+            in my portfolio (10%). After that, I evalute Expected annual return and Annual volatility. 
  
             At this point, I perform a portfolio optimization, starting from the 10 chosen actions,
             by defining the Efficient Frontier. We have obtained that the performance of the 
-            portfolio with OPTIMIZED distribution, maximizes the return and minimizes the financial risk.
+            portfolio with OPTIMIZED distribution, maximizes the return and minimizes the 
+            financial risk.
             
 ##### Uniform Wallet:
 Expected Annual Return: 27%
@@ -58,8 +61,9 @@ Financial Risk: 33.3%
             plays a strategic role. Indeed, the timeline of events is important and each
             event can happen more than once
             
-            The analysis consists of the following situation: a health company must evaluate the introduction 
-            of a medical device for the improvement of osteoarthritis. Some information is known:
+            The analysis consists of the following situation: a health company must evaluate the 
+            introduction of a medical device for the improvement of osteoarthritis. 
+            Some information is known:
             - device cost
             - probability of osteoporosis fractures by age group
             - mortality by age group
@@ -69,8 +73,8 @@ Financial Risk: 33.3%
             What we want to evaluate is the ICER. The incremental cost-effectiveness ratio (ICER)
             is a statistic used in cost-effectiveness analysis to summarise the cost-effectiveness of 
             a health care intervention. It is defined by the difference in cost between  two possible
-            interventions, divided by the difference in their effect. It represents the average incremental 
-            cost associated with 1 additional unit of the measure of effect.
+            interventions, divided by the difference in their effect. It represents the average 
+            incremental cost associated with 1 additional unit of the measure of effect.
             
             The result is positive for all age groups, in fact, all DeltaCost and DeltaLY couples are 
             greater than the red line that delimits the cost-life years convenience.
