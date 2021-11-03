@@ -27,7 +27,7 @@
             The result with cross_validation=5 is R2_SCORE = 0.8223
             
 
-#### 6. Machine Learning project (Healthcare) - XGB classification:
+#### 3. Machine Learning project (Healthcare) - XGB classification:
            This example of project is based on a particular type of machine learning classification (XGB).
            Modified "heart_failure_clinical_records_dataset" dataset on Kaggle and added and modify some new 
            features (x1, x2, x3 ...) to improve the predictivity of the label (y),i.e. the presence or not of 
