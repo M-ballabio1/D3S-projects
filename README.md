@@ -1,4 +1,4 @@
-# DataScience_MachineLearning_DeepLearning-projects
+# Data Science, Machine Learning, Deep Learning projects
 Projects carried out by modifying and using datasets on Kaggle or other public dataset platforms such as Google Dataset Search or Microsoft Azure.
 
 
