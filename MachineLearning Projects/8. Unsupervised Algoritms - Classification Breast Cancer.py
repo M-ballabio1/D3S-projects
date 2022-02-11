@@ -67,3 +67,14 @@ Y_pred_test5 = classifier5.predict(X_test)
 #summary accuracy
 print(accuracy_score(Y_test, Y_pred_test5))                  #91.6 Acuracy
 print(classification_report(Y_test, Y_pred_test5))
+
+#PLOT CONFUSION MATRIX - SVM
+cm = confusion_matrix(Y_test, Y_pred_test3)
+
+x_axis_labels = ['Positive','Negative'] # labels for x-axis
+y_axis_labels = ['Positive','Negative'] # labels for y-axis
+sns.heatmap(cm,xticklabels=x_axis_labels, yticklabels=y_axis_labels, annot=True)
+plt.title('Confusion Matrix', fontsize = 18) # title with fontsize 20
+plt.xlabel('True Class', fontsize = 15) # x-axis label with fontsize 15
+plt.ylabel('Predicted Class', fontsize = 15) # y-axis label with fontsize 15
+plt.show()
