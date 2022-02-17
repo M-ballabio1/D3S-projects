@@ -1,6 +1,6 @@
 %% IMPORTO DATASET
 
-T = readtable('TSLA_stock.xlsx');
+T = readtable('TSLA_stock.xlsx');  %modify path
 
 %% Analisi esplorativa
 % PREZZO AZIONI
