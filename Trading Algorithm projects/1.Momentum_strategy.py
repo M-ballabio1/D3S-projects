@@ -10,7 +10,7 @@ Created on Sun Feb 13 12:17:31 2022
 
 #%% Import module
 
-from pathlib import Path               #combine path elements with /
+from pathlib import Path               #combine path
 import os
 import numpy as np
 import pandas as pd
