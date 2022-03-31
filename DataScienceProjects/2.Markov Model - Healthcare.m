@@ -1,11 +1,5 @@
 %MARKOV MODEL EXAMPLE:
 
-%In probability theory, a Markov model is a stochastic model used to model pseudo-randomly changing systems.
-%It is assumed that future states depend only on the current state, not on the events that occurred before 
-%it (that is, it assumes the Markov property). Generally, this assumption enables reasoning and computation 
-%with the model that would otherwise be intractable. For this reason, in the fields of predictive modelling and probabilistic 
-%forecasting, it is desirable for a given model to exhibit the Markov property.
-
 %Matrici delle probabilitÃ 
 
 P_74_nd=[ .9751    .0062    0       .0188;...
@@ -165,6 +159,9 @@ end
 Delta_costi=Tot_C_cd-Tot_C_nd
 Delta_LY=Tot_LY_cd-Tot_LY_nd
 ICER=(Tot_C_cd-Tot_C_nd)/(Tot_LY_cd-Tot_LY_nd)
+
+
+#plott
 
 x=linspace(0,25);
 y=50000*x;
