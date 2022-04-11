@@ -5,6 +5,7 @@ Created on Wed Feb 23 12:39:47 2022
 @author: matte
 """
 
+#Model of INDUSTRIAL ECONOMY
 #%% Import module
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
@@ -16,7 +17,7 @@ import numpy as np
 #path = r'C:\Users\matte\PycharmProjects\pythonProject_MachineLearning\Algorithmic trading'
 #immagini_path = path+(r"\immagini\2.immagini")
 
-#%% Main
+#%% Main script
 
 k = np.arange(0, 200, 2.5)
 k1 = np.arange(0, 200, 20)
