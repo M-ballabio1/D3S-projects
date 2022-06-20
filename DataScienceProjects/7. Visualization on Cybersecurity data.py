@@ -5,7 +5,7 @@ Created on Fri May 13 14:34:12 2022
 @author: matte
 """
 
-#%% Introduction
+#%% Introduction and abstract
 
 '''
 Common Vulnerabilities and Exposures (CVE) is a list of computer security threats provided by 
